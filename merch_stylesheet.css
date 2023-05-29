@@ -1,0 +1,200 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: relative;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.navbar{
+	padding:25px 20px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+}
+ul{
+	margin: 0;
+	list-style: none;
+	display: inline;
+}
+li{
+	font-size: 22px;
+	font-weight: 500;
+	float: left;
+	color: #fff;
+	margin-right: 50px;
+	cursor: pointer;
+}
+.brand{
+	margin-right: 380px;
+	margin-left: 20px;
+	font-size: 25px;
+	color: #00d4ff;
+}
+li:hover{
+	color: #00d4ff;
+}
+.heading{
+	top: 240px;
+	color: #00d4ff;
+	font-size: 90px;
+	font-family: fantasy;
+	text-transform: uppercase;
+	letter-spacing: 0.06em;
+}
+
+
+.tee1img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 240px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.tee1content{
+	position: absolute;
+	top: 270px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.tee1button{
+	position: absolute;
+	top: 340px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.tee1price{
+	position: absolute;
+	top: 340px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.tee1button:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+.hoodie2img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 640px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.hoodie2content{
+	position: absolute;
+	top: 670px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.hoodie2button{
+	position: absolute;
+	top: 740px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.hoodie2price{
+	position: absolute;
+	top: 740px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.hoodie2button:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+.joggers3img{
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 1040px;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
+}
+.joggers3content{
+	position: absolute;
+	top: 1070px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.joggers3button{
+	position: absolute;
+	top: 1140px;
+	left: 30%;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 600;
+	font-size: 20px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+	color: #00d4ff;
+}
+.joggers3price{
+	position: absolute;
+	top: 1140px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.joggers3button:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+.bottombar{
+	position: absolute;
+	top: 2000px;
+	padding:25px 20px;
+	width: 100%;
+	height: 30px;
+	background: #000000;
+}
