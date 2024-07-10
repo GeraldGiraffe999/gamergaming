@@ -36,59 +36,36 @@ li{
 li:hover{
 	color: #00d4ff;
 }
-.gamergaming{
-	position: absolute;
-	top: 160px;
-	left: 60%;
-}
-img{
-	height: 550px;
-}
 .heading{
-	position: absolute;
-	color: #00d4ff;
 	top: 240px;
-	left: 160px;
+	color: #00d4ff;
 	font-size: 90px;
 	font-family: fantasy;
 	text-transform: uppercase;
 	letter-spacing: 0.06em;
 }
-.content{
+
+
+.tee1img{
+	height: 300px;
+	width: 300px;
 	position: absolute;
-	top: 340px;
-	left: 160px;
-	color: #ececec;
-	font-size: 25px;
-	letter-spacing: 0.03em;
-}
-.gamergamingpic{
-	position: absolute;
-	top: 160px;
-	left: 60%;
-}
-.heading{
-	position: absolute;
-	color: #00d4ff;
 	top: 240px;
-	left: 160px;
-	font-size: 90px;
-	font-family: fantasy;
-	text-transform: uppercase;
-	letter-spacing: 0.06em;
+	left: 10%;
+	background: #ffffff;
+	border-radius: 25px;
 }
-.content{
+.tee1content{
+	position: absolute;
+	top: 270px;
+	left: 30%;
+	color: #ffffff;
+	font-size: 40px;
+}
+.tee1button{
 	position: absolute;
 	top: 340px;
-	left: 160px;
-	color: #ececec;
-	font-size: 25px;
-	letter-spacing: 0.03em;
-}
-.ytbutton{
-	position: absolute;
-	top: 455px;
-	left: 160px;
+	left: 30%;
 	text-decoration: none;
 	padding: 15px 30px;
 	font-weight: 600;
@@ -99,78 +76,44 @@ img{
 	transition-property: background;
 	color: #00d4ff;
 }
-.ytbutton:hover{
+.tee1price{
+	position: absolute;
+	top: 340px;
+	left: 40%;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
+}
+.tee1button:hover{
 	background: #00d4ff;
 	color: #fff;
 }
-.newsheader{
+
+
+.hoodie2img{
+	height: 300px;
+	width: 300px;
 	position: absolute;
-	color: #00d4ff;
-	top: 860px;
-	left: 65%;
-	font-size: 90px;
-	font-family: fantasy;
-	text-transform: uppercase;
-	letter-spacing: 0.06em;
-}
-.newscontent{
-	position: absolute;
-	top: 960px;
-	left: 65%;
-	color: #ececec;
-	font-size: 25px;
-	letter-spacing: 0.03em;
-}
-.newsbutton{
-	position: absolute;
-	top: 1075px;
-	left: 65%;
-	text-decoration: none;
-	padding: 15px 30px;
-	font-weight: 600;
-	font-size: 20px;
-	border: 1px solid #00d4ff;
+	top: 640px;
+	left: 10%;
+	background: #ffffff;
 	border-radius: 25px;
-	transition: 0.5s;
-	transition-property: background;
-	color: #00d4ff;
 }
-.newsbutton:hover{
-	background: #00d4ff;
+.hoodie2content{
+	position: absolute;
+	top: 670px;
+	left: 30%;
 	color: #ffffff;
+	font-size: 40px;
 }
-.newsimg{
+.hoodie2button{
 	position: absolute;
 	top: 740px;
-	left: 160px;
-}
-.merchpic{
-	position: absolute;
-	top: 1400px;
-	left: 60%;
-}
-.merchheading{
-	position: absolute;
-	color: #00d4ff;
-	top: 1480px;
-	left: 160px;
-	font-size: 90px;
-	font-family: fantasy;
-	text-transform: uppercase;
-	letter-spacing: 0.06em;
-}
-.merchcontent{
-	position: absolute;
-	top: 1580px;
-	left: 160px;
-	color: #ececec;
-	font-size: 25px;
-	letter-spacing: 0.03em;
-}
-.merchbutton{
-	position: absolute;
-	top: 1695px;
-	left: 160px;
+	left: 30%;
 	text-decoration: none;
 	padding: 15px 30px;
 	font-weight: 600;
@@ -181,10 +124,25 @@ img{
 	transition-property: background;
 	color: #00d4ff;
 }
-.merchbutton:hover{
-	background: #00d4ff;
+.hoodie2price{
+	position: absolute;
+	top: 740px;
+	left: 40%;
 	color: #ffffff;
+	font-size: 20px;
+	padding: 15px 30px;
+	border: 1px solid #00d4ff;
+	border-radius: 25px;
+	transition: 0.5s;
+	transition-property: background;
 }
+.hoodie2button:hover{
+	background: #00d4ff;
+	color: #fff;
+}
+
+
+
 .bottombar{
 	position: absolute;
 	top: 2000px;
